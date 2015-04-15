@@ -12,10 +12,9 @@ Necessities to edit the assets:
 
 To render new assets from their source SVG files, run the following:
 
-    ./render-gtk3-assets.py
-    ./render-gtk3-assets-hidpi.py
-    ./render-gnome-shell-assets.py
-    ./render-wm-assets.py
+#+BEGIN_SRC sh
+  ./render-assets.sh
+#+END_SRC
 
 Note that these are not my scripts and I have no idea how they work :)
 
