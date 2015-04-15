@@ -2,6 +2,7 @@
 [[https://github.com/zovt/papier-gtk-theme][Papier]] is a modification of the [[http://snwh.org/paper/][Paper]] theme originally developed by snwh. Papier seeks to be a lighter, more colourful theme.
 
 ** Preamble
+While the original theme is focused on providing assets and files for a bunch of major desktop environments, this theme is focused on GNOME 3.16 and onwards.
 
 *** Using the Source
 Necessities to edit the assets:
