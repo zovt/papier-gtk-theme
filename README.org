@@ -4,6 +4,7 @@
 ** Preamble
 While the original theme is focused on providing assets and files for a bunch of major desktop environments, this theme is focused on GNOME 3.16 and onwards.
 
+This theme is meant to be brighter and more colourful than the original Paper theme. It is almost a mix of Phosphene and Paper
 *** Using the Source
 Necessities to edit the assets:
 
