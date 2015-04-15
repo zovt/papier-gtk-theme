@@ -1,0 +1,25 @@
+* Papier Theme
+[[https://github.com/zovt/papier-gtk-theme][Papier]] is a modification of the [[http://snwh.org/paper/][Paper]] theme originally developed by snwh. Papier seeks to be a lighter, more colourful theme.
+
+** Preamble
+
+*** Using the Source
+Necessities to edit the assets:
+
+ * inkscape
+ * python3
+
+To render new assets from their source SVG files, run the following:
+
+    ./render-gtk3-assets.py
+    ./render-gtk3-assets-hidpi.py
+    ./render-gnome-shell-assets.py
+    ./render-wm-assets.py
+
+Note that these are not my scripts and I have no idea how they work :)
+
+If scripts are throwing errors, they may not be executable, try:
+	
+	chmod +x *
+
+Each script will look in the asset source directories (../src/*) and render the respective assets (provided there are changes) to the appropriate locations.

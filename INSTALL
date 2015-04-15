@@ -1,8 +1,8 @@
 --------------------------------------------------------------------------------
-Install Paper Icon theme
+Install Papier theme
 --------------------------------------------------------------------------------
-For personal use, copying the 'Paper' folder to '$HOME/.local/share/themes' will do
-or copy 'Paper' into '/usr/share/themes' to make it available system-wide
+For personal use, copying the 'Papier' folder to '$HOME/.local/share/themes' will do
+or copy 'Papier' into '/usr/share/themes' to make it available system-wide
 
 Alternatively, run the provided install script:
 

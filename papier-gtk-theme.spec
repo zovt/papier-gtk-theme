@@ -13,15 +13,15 @@
 #
 
 
-Name:		paper-gtk-theme
+Name:		papier-gtk-theme
 Version:	1.0
 Release:	0
 
-Summary:	Paper GTK Theme
+Summary:	Papier GTK Theme
 License:    GPL-3.0+
 
 Group:      System/GUI/GNOME
-Url:        http://www.mokaproject.com/paper-gtk-theme
+Url:        https://github.com/zovt/papier-gtk-theme
 Source0:	%{name}-%{version}.tar.gz
 
 BuildArch:	noarch
@@ -42,4 +42,4 @@ cp -a Paper-Dark/ $RPM_BUILD_ROOT%{_datadir}/themes/
 
 %files
 %doc AUTHORS LICENSE
-%{_datadir}/themes/Paper/
+%{_datadir}/themes/Papier/
