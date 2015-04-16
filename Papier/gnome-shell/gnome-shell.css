@@ -541,12 +541,10 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 .popup-menu-boxpointer,
 .candidate-popup-boxpointer {
     -arrow-border-radius: 6px;
-    -arrow-background-color: #454d50;
-    -arrow-border-width: 1px;
-    -arrow-border-color: rgba(0,0,0,0.3);
+    -arrow-border-width: 0px;
+    -arrow-background-color: #43a047;
     -arrow-base: 24px;
     -arrow-rise: 11px;
-    -arrow-box-shadow: 0 1px 3px black;
 }
 
 .popup-separator-menu-item {
@@ -706,7 +704,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
     color: #FFF;
     font-weight: bold;
     font-size: 12pt;
-    text-shadow:none;
+    text-shadow: none;
 }
 
 #panel.unlock-screen, #panel.login-screen, #panel.lock-screen {
@@ -751,13 +749,13 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 			    }
 
 #panel .panel-button:active, #panel .panel-button:overview, #panel .panel-button:focus, #panel .panel-button:checked {
-											    background-color: rgba(0,0,0,0.01);
-											    box-shadow: inset 0 -2px 0px #9fb0b9;
+											    background-color: #0d47a1;
+											    box-shadow: none;
 											    background-image: none;
 											    background-gradient-direction: none;
 											    color: white;
-											    text-shadow:none;
-											    icon-shadow:none;
+											    text-shadow: none;
+											    icon-shadow: none;
 											}
 #panel .panel-button:active > .system-status-icon, #panel .panel-button:overview > .system-status-icon, #panel .panel-button:focus > .system-status-icon, #panel .panel-button:checked > .system-status-icon {
 																			      icon-shadow: black 0 2px 2px;
@@ -827,7 +825,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
     background-gradient-direction: none;
     box-shadow: none;
     border: none;
-    background-color: #454d50;
+    background-color: #454d50
 }
 .datemenu-today-button:active,
 .world-clocks-button:active,
