@@ -1,0 +1,2 @@
+* Things that still need themeing
+** TODO Change text color to #FFF for popup menus
