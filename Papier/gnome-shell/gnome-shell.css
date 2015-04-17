@@ -844,7 +844,8 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .world-clocks-header,
 .message-list-section-title {
-    color: rgba(255,255,255,0.3);
+    color: rgba(255,255,255,1.0);
+    font-size: 24pt;
     font-weight: bold;
 }
 
@@ -853,8 +854,9 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .calendar-month-label {
-    color: rgba(255,255,255,0.7);
+    color: #FFF;
     font-weight: bold;
+    font-size: 24pt;
     padding: 8px 0;
 }
 
@@ -887,7 +889,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .calendar-day-base {
-    font-size: 80%;
+    font-size: 12pt;
     text-align: center;
     width: 2.4em;
     height: 2.4em;
@@ -897,15 +899,16 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
     border: none;
 }
 .calendar-day-base:hover, .calendar-day-base:focus {
-			      background-color: rgba(255,255,255,0.2);
+			      background-color: rgba(229, 57, 53, .5);
+			      color: #FFF;
 			  }
 .calendar-day-base:active {
     color: white;
-    background-color: #9fb0b9;
+    background-color: #e53935;
     border-color: transparent;
 }
 .calendar-day-base.calendar-day-heading {
-    color: rgba(255,255,255,0.3);
+    color: #FFF;
     margin-top: 1em;
     font-size: 70%;
 }
@@ -923,8 +926,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .calendar-nonwork-day {
-    background-color: rgba(255,255,255,0);
-    color: rgba(255,255,255,0.3);
+    color: rgba(255,255,255,0.5);
 }
 
 .calendar-today {
@@ -933,6 +935,10 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
     font-weight: bold;
     background-color: rgba(159, 176, 185, 0.3);
     border: 0px solid rgba(0,0,0,0.2);
+}
+
+.calendar-work-day {
+    color: #FFF;
 }
 
 .calendar-day-with-events {
